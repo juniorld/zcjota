@@ -3,8 +3,34 @@
     "name": "jaime",
     "slug": "jaime",
     "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/maps-and-location.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/maps-and-location.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
     "assetBundlePatterns": [
       "**/*"
-    ]
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "package": "com.zcjota.jaime",
+      "versionCode": 1
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "78f340a0-201b-4dcf-a3c9-ff90f5c09271"
+      }
+    }
   }
 }
