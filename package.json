@@ -11,6 +11,7 @@
     "prod": "expo build:android"
   },
   "dependencies": {
+    "eas-cli": "^2.7.1",
     "expo": "~46.0.0",
     "expo-location": "~14.3.0",
     "expo-splash-screen": "~0.16.2",

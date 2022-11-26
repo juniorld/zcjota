@@ -22,7 +22,11 @@
     },
     "android": {
       "package": "com.zcjota.jaime",
-      "versionCode": 1
+      "versionCode": 1,
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/maps-and-location.png",
+        "backgroundColor": "#FFFFFF"
+      }
     },
     "web": {
       "favicon": "./assets/favicon.png"
